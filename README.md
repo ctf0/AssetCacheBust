@@ -22,7 +22,7 @@ protected $commands = [
 ];
 ```
 
-4- run `composer dump-autoload`
+4- from the root of your project run `composer dump-autoload`
 
 
 ## Usage
