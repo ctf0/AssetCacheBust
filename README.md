@@ -26,13 +26,17 @@ protected $commands = [
 
 
 ## Usage
-1- in your view write your assets as usual `{{ asset("css/style.css") }}` and just add `?v=$v` to the end like so
+1- in your view
 
 ```blade
+// before
+{{ asset("css/style.css") }}
+
+// after
 {{ asset("css/style.css?v=$v") }}
 ```
 
-**now whenever u push a new copy of the assets, just run `php artisan assets:bust` from your console and you are done 💯.
+**now whenever you push a new copy of the assets, just run `php artisan assets:bust` from the console and you are done 💯.
 
 ## TODO
 
