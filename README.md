@@ -5,23 +5,21 @@ this little package makes things much easier as you dont need to change anything
 
 ## Installation
 
-1- download `ctf0` folder.
+1- copy the file `src/CacheBust.php` to ur project `app/CacheBust.php`.
 
-2- copy the folder to `vendor`
-
-3- from the project root open `composer.json` and add
+2- from the project root open `composer.json` and add
 
 ```js
 "autoload": {
     "files": [
-        "vendor/ctf0/src/CacheBust.php"
+        "app/CacheBust.php"
     ],
 
     // ...
 }
 ```
 
-4- run `composer dump-autoload`
+3- run `composer dump-autoload`
 
 ## Usage
 1- in your view
@@ -31,11 +29,7 @@ this little package makes things much easier as you dont need to change anything
 {{ asset('css/style.css') }}
 
 // after
-{{ bust('css/style.css') }}
+{{ bustfy('css/style.css') }}
 ```
 
 **And Thats it** 💃.
-
-## TODO
-
-* [ ] Turn Into A Package (any help it much appreciated).
