@@ -7,8 +7,6 @@ this little package makes things much easier as you dont need to change anything
 
 - `composer require ctf0/asset-cache-bust`
 
-## Usage
-
 - add the service provider to `config/app.php`
 
 ```php
@@ -16,6 +14,8 @@ this little package makes things much easier as you dont need to change anything
     ctf0\AssetCacheBust\AssetCacheBustServiceProvider::class,
 ]
 ```
+
+## Usage
 
 - in your view
 
