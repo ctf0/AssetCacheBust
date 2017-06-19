@@ -5,24 +5,19 @@ this little package makes things much easier as you dont need to change anything
 
 ## Installation
 
-1- copy the file `src/CacheBust.php` to ur project `app/CacheBust.php`.
-
-2- from the project root open `composer.json` and add
-
-```js
-"autoload": {
-    "files": [
-        "app/CacheBust.php"
-    ],
-
-    // ...
-}
-```
-
-3- run `composer dump-autoload`
+- `composer require ctf0/asset-cache-bust`
 
 ## Usage
-1- in your view
+
+- add the service provider to `config/app.php`
+
+```php
+'providers' => [
+    ctf0\AssetCacheBust\AssetCacheBustServiceProvider::class,
+]
+```
+
+- in your view
 
 ```blade
 // before
@@ -32,4 +27,3 @@ this little package makes things much easier as you dont need to change anything
 {{ bustfy('css/style.css') }}
 ```
 
-**And Thats it** 💃.
