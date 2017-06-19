@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ctf0\\AssetCacheBust\\AssetCacheBustServiceProvider::class"
+                "ctf0\\AssetCacheBust\\AssetCacheBustServiceProvider"
             ]
         }
     },
