@@ -3,7 +3,8 @@
     "description": "Automatic Assets CacheBust in Laravel",
     "keywords": [
         "ctf0",
-        "AssetCacheBust"
+        "AssetCacheBust",
+        "laravel"
     ],
     "homepage": "https://github.com/ctf0/AssetCacheBust",
     "license": "MIT",
