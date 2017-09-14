@@ -1,6 +1,6 @@
 {
     "name": "ctf0/asset-cache-bust",
-    "description": "Automatic Assets CacheBust in Laravel",
+    "description": "Automatic Assets CacheBust in Php",
     "keywords": [
         "ctf0",
         "AssetCacheBust",
