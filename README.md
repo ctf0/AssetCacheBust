@@ -1,4 +1,10 @@
-simply everytime you make a change to the file, its timestamp gets changed & the cache will busted automatically 😍.
+<h1 align="center">
+    Asset Cache Bust
+    <br>
+    <a href="https://packagist.org/packages/ctf0/asset-cache-bust"><img src="https://img.shields.io/packagist/v/ctf0/asset-cache-bust.svg" alt="Latest Stable Version" /></a> <a href="https://packagist.org/packages/ctf0/asset-cache-bust"><img src="https://img.shields.io/packagist/dt/ctf0/asset-cache-bust.svg" alt="Total Downloads" /></a>
+</h1>
+
+simply everytime you make a change to the file, its timestamp gets changed &amp; the cache will be busted automatically 😍.
 
 ## Installation
 
@@ -8,10 +14,10 @@ simply everytime you make a change to the file, its timestamp gets changed & the
 
 - in your view
 
-```blade
-// normal
-<?php echo bustfy('css/style.css') ?>
+    ```blade
+    // php
+    <?php echo bustfy('css/style.css') ?>
 
-// laravel
-{{ bustfy('css/style.css') }}
-```
+    // laravel
+    {{ bustfy('css/style.css') }}
+    ```
