@@ -21,3 +21,9 @@ simply everytime you make a change to the file, its timestamp gets changed &amp;
     // laravel
     {{ bustfy('css/style.css') }}
     ```
+
+<br>
+
+### Security
+
+If you discover any security-related issues, please email [ctf0-dev@protonmail.com](mailto:ctf0-dev@protonmail.com).
